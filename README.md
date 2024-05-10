@@ -1,3 +1,4 @@
+Cara Menggunakan program:
 1.	Pilih metode (1/2/3).
 2.	Masukkan ukuran matriks A.
 3.	Isi matriks A baris per baris, pisahkan angka dengan spasi.
