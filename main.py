@@ -1,6 +1,6 @@
-from metode_numerik import solve_using_inverse, solve_using_lu, solve_using_crout, input_matrix, input_vector
+from function import solve_using_inverse, solve_using_lu, solve_using_crout, input_matrix, input_vector
 
-def main():
+def main():     
     print("=============================================================")
     print("Pilih Metode Penyelesaian:")
     print("1. Metode Matriks Balikan")
@@ -41,11 +41,13 @@ def main():
 
         change_method = input("Apakah Anda ingin mengubah metode penyelesaian? (y/n): ")
         if change_method.lower() == 'y':
-            print("\nSilakan Pilih Metode Penyelesaian:")
+            print("=============================================================")
+            print("Pilih Metode Penyelesaian:")
             print("1. Metode Matriks Balikan")
             print("2. Metode Dekomposisi LU Gauss")
             print("3. Metode Dekomposisi Crout")
-            choice = int(input("Masukkan Pilihan Anda (1/2/3): "))
+            print("=============================================================")
+            choice = int(input("Pilihan (1/2/3):"))
 
             if choice not in [1, 2, 3]:
                 print("Pilihan tidak valid.")
